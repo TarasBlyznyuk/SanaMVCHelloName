@@ -6,12 +6,11 @@ namespace HelloName.Controllers
 {
     public class HelloController : Controller
     {
-        public IActionResult Index()
-        {
+        public IActionResult Index() {
             return View();
         }
-        public IActionResult KindaRequest() {
-            return View();
+        public IActionResult KindaRequest(RequestModel instance) {
+            return View(instance);
         }
     }
 }

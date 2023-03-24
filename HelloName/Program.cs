@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Hello}/{action=Index}/{id?}");
+    pattern: "{controller=Hello}/{action=KindaRequest}/{id?}");
 
 app.Run();
