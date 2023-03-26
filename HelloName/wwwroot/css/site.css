@@ -16,10 +16,10 @@ html {
   position: relative;
   min-height: 100%;
 }
-
-body {
-  margin-bottom: 60px;
-}
 #output {
     float: right;
+    font-size: 30px;
+    text-decoration:underline;
+    transition: font-size 500ms;
 }
+#output:hover { font-size: 35px; }

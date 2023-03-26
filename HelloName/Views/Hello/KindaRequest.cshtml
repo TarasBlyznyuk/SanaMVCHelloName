@@ -2,14 +2,13 @@
 @{
     ViewData["Title"] = "Форма для вводу";
 }
-
 <h2>Форма для виводу приколу</h2><p id="output">Привіт, @Model.Name</p>
 @using(Html.BeginForm("KindaRequest", "Hello", FormMethod.Post)) {
     <div class="container">
         <div>Name:</div>
         <div>@Html.TextBox("Name")</div>
         <div>
-            <button type="submit" onclick="showHiddenText()">Втиснути</button>
+            <button type="submit">Втиснути</button>
         </div>
     </div>
 }
